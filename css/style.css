@@ -6,11 +6,6 @@
   /* Обёртка для прижатия подвала к нижней части */
 }
 
-.test{
-  width: 300px;
-  height: 300px;
-  background-color: orange;
-}
 
 .wrapper-forcontent {
   min-height: 100vh;
