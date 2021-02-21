@@ -53,4 +53,9 @@
     line-height: $linehe;
 }*/
 /* index */
+.first {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
