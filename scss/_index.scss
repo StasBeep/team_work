@@ -30,6 +30,11 @@
                 &:last-child {
                     margin-right: 172px;
                 }
+
+                &:hover{
+                    cursor: pointer;
+                    color: $yellow-dust;
+                }
             }
         }
 
@@ -42,11 +47,23 @@
                 @include fonts(opensans, 700, 12px, 16px);
                 text-transform: uppercase;
                 /*color: $white;*/
+
+                &:hover{
+                    cursor: pointer;
+                    color: $yellow-dust;
+                }
+
+                &:hover~ .header-menu-end-svg{
+                    cursor: pointer;
+                    fill: $yellow-dust;
+                }
             }
 
             &-svg {
                 margin-left: 6px;
                 margin-bottom: 1px;
+                fill: $white;
+                cursor: pointer;
             }
 
             &-language {
@@ -54,7 +71,7 @@
 
                 &-ol {
                     position: absolute;
-                    display: block;
+                    display: none;
                     list-style: none;
                     background: rgba(0, 0, 0, 0.75);
                     border-radius: 3px;
@@ -66,8 +83,15 @@
                         @include fonts(opensans, 700, 12px, 16px);
                         text-transform: uppercase;
                         color: $white;
+                        cursor: pointer;
+
+                        &:hover{
+                            color: $yellow-dust;
+                        }
                     }
                 }
+
+                
             }
         }
 
@@ -90,6 +114,10 @@
             }
         }
     }
+}
+
+#check-menu:checked~ .header-menu-end-language-ol{
+    display: block;
 }
 
 /*end index end*/

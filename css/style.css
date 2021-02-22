@@ -102,6 +102,11 @@ body {
   margin-right: 172px;
 }
 
+.header-menu-list-li:hover {
+  cursor: pointer;
+  color: #FFB548;
+}
+
 .header-menu-end {
   margin-top: 35px;
   margin-right: 25px;
@@ -118,9 +123,21 @@ body {
   /*color: $white;*/
 }
 
+.header-menu-end-txt:hover {
+  cursor: pointer;
+  color: #FFB548;
+}
+
+.header-menu-end-txt:hover ~ .header-menu-end-svg {
+  cursor: pointer;
+  fill: #FFB548;
+}
+
 .header-menu-end-svg {
   margin-left: 6px;
   margin-bottom: 1px;
+  fill: #FFFFFF;
+  cursor: pointer;
 }
 
 .header-menu-end-language {
@@ -129,7 +146,7 @@ body {
 
 .header-menu-end-language-ol {
   position: absolute;
-  display: block;
+  display: none;
   list-style: none;
   background: rgba(0, 0, 0, 0.75);
   border-radius: 3px;
@@ -146,6 +163,11 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: #FFFFFF;
+  cursor: pointer;
+}
+
+.header-menu-end-language-ol-li:hover {
+  color: #FFB548;
 }
 
 .header-menu-link {
@@ -165,6 +187,10 @@ body {
 
 .header-menu-link-img {
   margin-top: 10px;
+}
+
+#check-menu:checked ~ .header-menu-end-language-ol {
+  display: block;
 }
 
 /*end index end*/
