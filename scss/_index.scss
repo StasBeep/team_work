@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.top_section{
+    // box-sizing: border-box;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(../img/top_img/bg_image_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // width: 100%;
+    // height: 1050px;
+    position: relative;
+    
+}
+
+.top_section_wrp{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_section_txt{
+    
+}
+
+.sos_txt{
+    @include fonts(bebasneue, 400, 24px, 24px);
+    padding-top: 160px;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.social_txt{
+    @include fonts(bebasneue, 700, 80px, 80px);
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 411px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line{
+    box-sizing: border-box;
+    width: 711px;
+    border-bottom: 3px solid white;
+}
+
+.about_game_txt{
+    font-family: opensans_normal;
+    box-sizing: border-box;
+    margin-top: 60px;
+    width: 365px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    padding-bottom: 358px;
+}
+
+.top_section_img{
+  
+}
+
+.top_section_img_1{
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+    right: 100px;
+}
+
+
+.top_section_img_2{
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 80;
+    top: 130px;
+    right: 75px;
+}
+
+
+.top_section_img_3{
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 30;
+    top: 140px;
+    right: 55px;
+}
+
+.arrow_btn{
+
+}
+
+.arrow{
+    position: absolute;
+    z-index: 30;
+    top: 440px;
+    right: 15px;
+    stroke: white;
+}
+
+.arrow:hover{
+    stroke: grey;
+}
+
+.arrow:active{
+    stroke: white;
+ }
+ 
+
