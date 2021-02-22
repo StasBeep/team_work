@@ -9,7 +9,6 @@ body{
     box-sizing: border-box;
 }
 
-
 .top_section{
     // box-sizing: border-box;
     background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(../img/top_img/bg_image_top.png);
@@ -17,18 +16,12 @@ body{
     background-size: cover;
     // width: 100%;
     // height: 1050px;
-    position: relative;
-    
-}
-
-.top_section_wrp{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-}
-
-.top_section_txt{
-    
+    &_wrp{
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .sos_txt{
@@ -53,7 +46,7 @@ body{
 
 .line{
     box-sizing: border-box;
-    width: 711px;
+    width: 650px;
     border-bottom: 3px solid white;
 }
 
@@ -75,7 +68,7 @@ body{
 
 .top_section_img_1{
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     z-index: 100;
     top: 120px;
@@ -85,7 +78,7 @@ body{
 
 .top_section_img_2{
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     z-index: 80;
     top: 130px;
@@ -95,7 +88,7 @@ body{
 
 .top_section_img_3{
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     z-index: 30;
     top: 140px;
