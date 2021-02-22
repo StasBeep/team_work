@@ -30,14 +30,26 @@
 
 /* end === content-without-footer === end */
 /* Шрифты */
-/* example: 
+/* opensans */
 @font-face {
-    font-family: lato;
-    src: url(../fonts/lato-light.ttf);
-    font-weight: 300;
-    font-style: normal;
-}*/
+  font-family: opensans;
+  src: url(../fonts/opensans-bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* bebasneue */
+@font-face {
+  font-family: bebasneue;
+  src: url(../fonts/bebasneue-regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* mixin */
+
+/* шрифты через миксин*/
+
 /* example:
 @mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
     font-family: lato;
@@ -58,4 +70,5 @@
   width: 1440px;
   height: 1050px;
 }
+
 /*# sourceMappingURL=style.css.map */
