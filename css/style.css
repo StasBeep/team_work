@@ -248,6 +248,7 @@ body {
 }
 
 .header-title-button {
+  cursor: pointer;
   display: block;
   margin: 29px auto 383px;
   padding: 17px 17px 20px;
