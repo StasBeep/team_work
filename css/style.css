@@ -2,8 +2,20 @@
 /* Переменные (через $) */
 /* === wrapper === */
 /* Обёртки - отдельный блок */
+body {
+  margin: 0;
+}
+
 .wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
   /* Обёртка для прижатия подвала к нижней части */
+}
+
+.wrapper-container {
+  padding: 0 120px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .wrapper-forcontent {
@@ -48,4 +60,112 @@
 
 /* mixin */
 /* шрифты через миксин*/
+/* index */
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu-logo {
+  display: block;
+  margin-top: 22px;
+  margin-right: 146px;
+}
+
+.header-menu-logo-img {
+  display: block;
+}
+
+.header-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 22px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-menu-list-li {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  /*color: $white;*/
+  margin-right: 40px;
+}
+
+.header-menu-list-li:last-child {
+  margin-right: 172px;
+}
+
+.header-menu-end {
+  margin-top: 35px;
+  margin-right: 25px;
+  position: relative;
+}
+
+.header-menu-end-txt {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  /*color: $white;*/
+}
+
+.header-menu-end-svg {
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+
+.header-menu-end-language {
+  display: none;
+}
+
+.header-menu-end-language-ol {
+  position: absolute;
+  display: block;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  top: 8px;
+  left: -5px;
+  padding: 5px 21px 5px 7px;
+}
+
+.header-menu-end-language-ol-li {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-menu-link {
+  margin-top: 27px;
+}
+
+.header-menu-link:nth-child(4) {
+  margin-left: 25px;
+  margin-right: 17px;
+}
+
+.header-menu-link:nth-child(4)::before {
+  content: "";
+  opacity: 0.5;
+  border-left: 0.87397px solid #FFFFFF;
+}
+
+.header-menu-link-img {
+  margin-top: 10px;
+}
+
+/*end index end*/
 /*# sourceMappingURL=style.css.map */

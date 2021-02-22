@@ -1,0 +1,95 @@
+/* index */
+.header {
+    &-background {}
+
+    &-menu {
+        display: flex;
+
+        &-logo {
+            display: block;
+            margin-top: 22px;
+            margin-right: 146px;
+
+            &-img {
+                display: block;
+            }
+        }
+
+        &-list {
+            display: flex;
+            list-style: none;
+            padding: 22px 0;
+            box-sizing: border-box;
+
+            &-li {
+                @include fonts(opensans, 700, 12px, 16px);
+                text-transform: uppercase;
+                /*color: $white;*/
+                margin-right: 40px;
+
+                &:last-child {
+                    margin-right: 172px;
+                }
+            }
+        }
+
+        &-end {
+            margin-top: 35px;
+            margin-right: 25px;
+            position: relative;
+
+            &-txt {
+                @include fonts(opensans, 700, 12px, 16px);
+                text-transform: uppercase;
+                /*color: $white;*/
+            }
+
+            &-svg {
+                margin-left: 6px;
+                margin-bottom: 1px;
+            }
+
+            &-language {
+                display: none;
+
+                &-ol {
+                    position: absolute;
+                    display: block;
+                    list-style: none;
+                    background: rgba(0, 0, 0, 0.75);
+                    border-radius: 3px;
+                    top: 8px;
+                    left: -5px;
+                    padding: 5px 21px 5px 7px;
+
+                    &-li {
+                        @include fonts(opensans, 700, 12px, 16px);
+                        text-transform: uppercase;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        &-link {
+            margin-top: 27px;
+
+            &:nth-child(4) {
+                margin-left: 25px;
+                margin-right: 17px;
+
+                &::before {
+                    content: "";
+                    opacity: 0.5;
+                    border-left: 0.873968px solid $white;
+                }
+            }
+
+            &-img {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+/*end index end*/

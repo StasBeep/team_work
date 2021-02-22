@@ -1,9 +1,20 @@
 /* Переменные (через $) */
-
+$white: #FFFFFF;
 
 /* === wrapper === */
 /* Обёртки - отдельный блок */
+body{
+    margin: 0;
+}
+
 .wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &-container {
+        padding: 0 120px;
+        box-sizing: border-box;
+    }
 
     /* Обёртка для прижатия подвала к нижней части */
     &-forcontent{
