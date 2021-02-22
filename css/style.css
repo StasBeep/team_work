@@ -59,7 +59,6 @@ body {
 }
 
 /* mixin */
-
 /* шрифты через миксин*/
 /* index */
 .header-menu {
@@ -190,21 +189,16 @@ body {
   margin-top: 10px;
 }
 
+.header-title-txt {
+  text-transform: uppercase;
+  display: block;
+}
+
 #check-menu:checked ~ .header-menu-end-language-ol {
   display: block;
 }
 
 /*end index end*/
-
-/* example:
-@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
-    font-family: lato;
-    font-weight: $size-format;
-    font-style: normal;
-    font-size: $fonts;
-    line-height: $linehe;
-}*/
-/* index */
 .container {
   width: 1200px;
   margin: 0 auto;

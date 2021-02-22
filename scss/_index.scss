@@ -31,7 +31,7 @@
                     margin-right: 172px;
                 }
 
-                &:hover{
+                &:hover {
                     cursor: pointer;
                     color: $yellow-dust;
                 }
@@ -48,12 +48,12 @@
                 text-transform: uppercase;
                 /*color: $white;*/
 
-                &:hover{
+                &:hover {
                     cursor: pointer;
                     color: $yellow-dust;
                 }
 
-                &:hover~ .header-menu-end-svg{
+                &:hover~.header-menu-end-svg {
                     cursor: pointer;
                     fill: $yellow-dust;
                 }
@@ -85,13 +85,13 @@
                         color: $white;
                         cursor: pointer;
 
-                        &:hover{
+                        &:hover {
                             color: $yellow-dust;
                         }
                     }
                 }
 
-                
+
             }
         }
 
@@ -114,9 +114,17 @@
             }
         }
     }
+
+    &-title {
+
+        &-txt {
+            text-transform: uppercase;
+            display: block;
+        }
+    }
 }
 
-#check-menu:checked~ .header-menu-end-language-ol{
+#check-menu:checked~.header-menu-end-language-ol {
     display: block;
 }
 
