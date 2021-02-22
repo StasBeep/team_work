@@ -1,9 +1,32 @@
 /* Переменные (через $) */
+$white: #FFFFFF;
 
+$yellow-dust: #FFB548;
+
+$black:#1A1917;
 
 /* === wrapper === */
 /* Обёртки - отдельный блок */
+body{
+    margin: 0;
+}
+
+/*Строки для того, чтобы не выскакивала рамка 
+при нажатии и наведении на кнопку (ссылку)*/
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
 .wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &-container {
+        padding: 0 120px;
+        box-sizing: border-box;
+    }
 
     /* Обёртка для прижатия подвала к нижней части */
     &-forcontent{
