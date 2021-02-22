@@ -47,5 +47,28 @@
 }
 
 /* mixin */
+
 /* шрифты через миксин*/
+
+/* example:
+@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: lato;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}*/
+/* index */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top_section {
+  background-image: url(../img/top_img/bg_image_top.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1050px;
+}
+
 /*# sourceMappingURL=style.css.map */
