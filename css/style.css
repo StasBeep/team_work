@@ -6,7 +6,6 @@
   /* Обёртка для прижатия подвала к нижней части */
 }
 
-
 .wrapper-forcontent {
   min-height: 100vh;
   /* 100 видимых высот */
@@ -31,26 +30,22 @@
 
 /* end === content-without-footer === end */
 /* Шрифты */
-/* example: 
+/* opensans */
 @font-face {
-    font-family: lato;
-    src: url(../fonts/lato-light.ttf);
-    font-weight: 300;
-    font-style: normal;
-}*/
-/* mixin */
-/* example:
-@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
-    font-family: lato;
-    font-weight: $size-format;
-    font-style: normal;
-    font-size: $fonts;
-    line-height: $linehe;
-}*/
-/* index */
-.first {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  font-family: opensans;
+  src: url(../fonts/opensans-bold.ttf);
+  font-weight: 700;
+  font-style: normal;
 }
+
+/* bebasneue */
+@font-face {
+  font-family: bebasneue;
+  src: url(../fonts/bebasneue-regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* mixin */
+/* шрифты через миксин*/
 /*# sourceMappingURL=style.css.map */

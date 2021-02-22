@@ -1,9 +1,10 @@
 /* mixin */
-/* example:
-@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
-    font-family: lato;
+
+/* шрифты через миксин*/
+@mixin fonts($font-name: opensans, $size-format: 700, $fonts:24px, $linehe: 24px) {
+    font-family: $font-name;
     font-weight: $size-format;
     font-style: normal;
     font-size: $fonts;
     line-height: $linehe;
-}*/
+}
