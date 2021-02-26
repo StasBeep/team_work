@@ -1,22 +1,22 @@
-
-body{
+body {
     margin: 0;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-.top_section{
+.top_section {
     // box-sizing: border-box;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(../img/top_img/bg_image_top.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
     background-repeat: no-repeat;
     background-size: cover;
+
     // width: 100%;
     // height: 1050px;
-    &_wrp{
+    &_wrp {
         position: relative;
         box-sizing: border-box;
         display: flex;
@@ -24,7 +24,7 @@ body{
     }
 }
 
-.sos_txt{
+.sos_txt {
     @include fonts(bebasneue, 400, 24px, 24px);
     padding-top: 160px;
     box-sizing: border-box;
@@ -33,7 +33,7 @@ body{
     color: #FFFFFF;
 }
 
-.social_txt{
+.social_txt {
     @include fonts(bebasneue, 700, 80px, 80px);
     margin-top: 10px;
     box-sizing: border-box;
@@ -44,13 +44,13 @@ body{
     color: #FFFFFF;
 }
 
-.line{
+.line {
     box-sizing: border-box;
     width: 650px;
     border-bottom: 3px solid white;
 }
 
-.about_game_txt{
+.about_game_txt {
     font-family: opensans_normal;
     box-sizing: border-box;
     margin-top: 60px;
@@ -62,11 +62,9 @@ body{
     padding-bottom: 358px;
 }
 
-.top_section_img{
-  
-}
+.top_section_img {}
 
-.top_section_img_1{
+.top_section_img_1 {
     box-sizing: border-box;
     border-radius: 10px;
     position: absolute;
@@ -76,7 +74,7 @@ body{
 }
 
 
-.top_section_img_2{
+.top_section_img_2 {
     box-sizing: border-box;
     border-radius: 10px;
     position: absolute;
@@ -86,7 +84,7 @@ body{
 }
 
 
-.top_section_img_3{
+.top_section_img_3 {
     box-sizing: border-box;
     border-radius: 10px;
     position: absolute;
@@ -95,11 +93,9 @@ body{
     right: 55px;
 }
 
-.arrow_btn{
+.arrow_btn {}
 
-}
-
-.arrow{
+.arrow {
     position: absolute;
     z-index: 30;
     top: 440px;
@@ -107,17 +103,18 @@ body{
     stroke: white;
 }
 
-.arrow:hover{
+.arrow:hover {
     stroke: grey;
 }
 
-.arrow:active{
+.arrow:active {
     stroke: white;
- }
- 
+}
+
 /* index */
 .header {
     &-background {
+        background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
         background-image: url(../img/bg-game.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -272,17 +269,17 @@ body{
                 transform: scale(1.5);
             }
 
-            &-txt{
+            &-txt {
                 display: block;
                 @include fonts(opensans, 700, 16px, 22px);
                 margin-right: 11px;
             }
 
-            &-price{
+            &-price {
                 display: block;
                 @include fonts(opensans, 700, 16px, 22px);
 
-                &::before{
+                &::before {
                     content: "";
                     border-left: 0.873968px solid $black;
                     padding-left: 14px;
@@ -312,7 +309,7 @@ body{
                 fill: black;
                 stroke: $white;
 
-                &:hover{
+                &:hover {
                     fill: $yellow-dust;
                     stroke: $black;
                 }
@@ -325,5 +322,45 @@ body{
     display: block;
 }
 
-/*end index end*/
+/*Блок №3*/
+.survive {
+    &-background {
+        background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%);
+        background-image: url(../img/back-man-bl-3.png);
+        background-size: cover;
+    }
 
+    &-question {
+        display: block;
+        @include fonts(bebasneue, 700, 24px, 24px);
+        color: $white;
+
+        &-txt {
+            display: block;
+            @include fonts(bebasneue, 700, 80px, 80px);
+            color: $white;
+        }
+    }
+
+    &-list {
+        max-width: 363px;
+        &-li {
+            @include fonts(bebasneue, 700, 36px, 36px);
+            color: $white;
+            list-style-type: circle;
+            list-style-position: 2px;
+
+            &-txt {
+                color: $yellow-dust;
+            }
+
+            &-paragraph {
+                @include fonts(opensans, 400, 18px, 22px);
+            }
+        }
+    }
+}
+
+/*end Блок №3*/
+
+/*end index end*/

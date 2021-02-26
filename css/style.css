@@ -204,6 +204,7 @@ body {
 
 /* index */
 .header-background {
+  background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
   background-image: url(../img/bg-game.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -369,7 +370,6 @@ body {
 }
 
 .header-title-button {
-  cursor: pointer;
   display: block;
   margin: 29px auto 383px;
   padding: 17px 17px 20px;
@@ -451,5 +451,60 @@ body {
   display: block;
 }
 
+/*Блок №3*/
+.survive-background {
+  background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%);
+  background-image: url(../img/back-man-bl-3.png);
+  background-size: cover;
+}
+
+.survive-question {
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.survive-question-txt {
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.survive-list {
+  max-width: 363px;
+}
+
+.survive-list-li {
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: #FFFFFF;
+  list-style-type: circle;
+  list-style-position: 2px;
+}
+
+.survive-list-li-txt {
+  color: #FFB548;
+}
+
+.survive-list-li-paragraph {
+  font-family: opensans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/*end Блок №3*/
 /*end index end*/
 /*# sourceMappingURL=style.css.map */
