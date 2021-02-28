@@ -325,25 +325,30 @@ body {
 /*Блок №3*/
 .survive {
     &-background {
-        background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%);
-        background-image: url(../img/back-man-bl-3.png);
+        background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(../img/back-man-bl-3.png);
         background-size: cover;
+    }
+
+    &-padd {
+        padding: 169px 0 258px 679px;
+        box-sizing: border-box;
     }
 
     &-question {
         display: block;
         @include fonts(bebasneue, 700, 24px, 24px);
         color: $white;
+        margin-bottom: 9px;
 
-        &-txt {
-            display: block;
+        &:nth-child(2) {
             @include fonts(bebasneue, 700, 80px, 80px);
-            color: $white;
+            margin-bottom: 71px;
         }
     }
 
     &-list {
-        max-width: 363px;
+        max-width: 320px;
+
         &-li {
             @include fonts(bebasneue, 700, 36px, 36px);
             color: $white;
@@ -355,7 +360,17 @@ body {
             }
 
             &-paragraph {
-                @include fonts(opensans, 400, 18px, 22px);
+                @include fonts(opensans_, 400, 18px, 22px);
+                margin-top: 5px;
+                margin-bottom: 28px;
+            }
+
+            &:first-child{
+                list-style-type: disc;
+            }
+
+            &:nth-child(2) {
+                margin-bottom: 37px;
             }
         }
     }
