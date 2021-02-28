@@ -325,5 +325,38 @@ body{
     display: block;
 }
 
+
+/* Пятая секция */
+.think{
+    &-background{
+        background-color: $black
+    }
+
+    &-left-side{
+        &-question{
+            display: block;
+            @include fonts(bebasneue, 700, 24px, 24px);
+            color: $white;
+
+            &:nth-child(2){
+                font-size: 80px;
+                line-height: 80px;
+            }
+
+            &-p{
+                @include fonts (opensans_normal, 400, 18px, 22px);
+                color: $white;
+            }
+        }
+
+        &-button{
+            @include fonts(opensans, 700, 18px, 22px);
+            color: $black;
+            padding: 18px 35px;
+        }
+    }
+}
+/*end Пятая секция end*/
+
 /*end index end*/
 

@@ -369,7 +369,6 @@ body {
 }
 
 .header-title-button {
-  cursor: pointer;
   display: block;
   margin: 29px auto 383px;
   padding: 17px 17px 20px;
@@ -451,5 +450,45 @@ body {
   display: block;
 }
 
+/* Пятая секция */
+.think-background {
+  background-color: #1A1917;
+}
+
+.think-left-side-question {
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.think-left-side-question:nth-child(2) {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.think-left-side-question-p {
+  font-family: opensans_normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.think-left-side-button {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1A1917;
+  padding: 18px 35px;
+}
+
+/*end Пятая секция end*/
 /*end index end*/
 /*# sourceMappingURL=style.css.map */
