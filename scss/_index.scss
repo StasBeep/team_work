@@ -10,7 +10,11 @@ body {
 
 .top_section {
     // box-sizing: border-box;
+
+  
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
+
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -378,4 +382,76 @@ body {
 
 /*end Блок №3*/
 
+
+// =================newsletter=============
+
+.bottom_section{
+    height: 960px;    
+    width: 100%;
+    background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../img/top_img/bg_image_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &_title{
+        box-sizing: border-box;
+        text-align: center;
+        
+        &_first{
+            box-sizing: border-box;
+            padding-top: 145px;
+            display: block;
+            color: $white;
+            @include fonts(bebasneue, 700, 24px, 24px);
+            letter-spacing: 2px;
+        }
+
+        &_second{
+            padding-bottom: 134px;
+            box-sizing: border-box;
+            display: block;
+            color: $white;
+            @include fonts(bebasneue, 700, 80px, 80px);
+            letter-spacing: 3px;
+        }
+    }
+
+    &_table{
+        width: 50%;
+        border-collapse:collapse;
+        border-spacing:0;
+        height: auto;
+        color: white;
+
+        &_bold{
+            @include fonts(bebasneue, 700, 24px, 24px);
+            color: $yellow-dust;
+        }
+
+        &_normal{
+            display: block;
+            margin: 7px 0 31px 0;
+            @include fonts(opensans_normal, 400, 18px, 22px);
+            color: $white;
+        }
+    }
+    &_table, 
+    &_table td, 
+    &_table th {
+        border: 0.5px solid rgba(151, 151, 151, 0.1);
+        
+    }
+    &_table td,
+    &_table th {
+        padding: 14px;
+        width: 30px;
+        height: 35px;
+    }
+    &_table th {
+        background: $pearl-light-grey; 
+        color: $white; 
+        
+    }
+}
+
 /*end index end*/
+
