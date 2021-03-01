@@ -456,14 +456,19 @@ body {
 // =================Footer=============
 
 .footer_top{
-    background: $super_black;
-    display: flex;
-    justify-content: space-between;
+    background:$super_black;
+    
+    &_wrp{
+        display: flex;
+        justify-content: space-between;
+        
+    }
 
     &_img{
         background-image: url(../img/footer_img/footer_scull_1.png);
         width: 100%;
-        min-height: 656px;
+        // Не забыть удалить высоту
+        min-height: 656px; 
         background-repeat: no-repeat;
     }
     
@@ -480,6 +485,36 @@ body {
         @include fonts(bebasneue, 700, 80px, 80px);
         color: $white;
         letter-spacing: 3px;
+    }
+
+    &_content{
+        width: 678px;
+        display: block;
+        @include fonts(opensans_normal, 400, 18px, 22px);
+        color: $white;
+    }
+
+    &_form{
+    }
+    
+    &_email{
+        
+        width: 377px;
+        padding: 23px 0;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 4px;
+        border: none;
+        margin-left: 12px;
+    }
+
+    &_button{
+        @include fonts(opensans, 700, 18px, 22px);
+        width: 260px;
+        padding: 20px 0;
+        border: none;
+        background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+        border-radius: 4px;
+        
     }
 
 }

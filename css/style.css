@@ -618,6 +618,9 @@ body {
 
 .footer_top {
   background: #080A0B;
+}
+
+.footer_top_wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,6 +657,39 @@ body {
   line-height: 80px;
   color: #FFFFFF;
   letter-spacing: 3px;
+}
+
+.footer_top_content {
+  width: 678px;
+  display: block;
+  font-family: opensans_normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer_top_email {
+  width: 377px;
+  padding: 23px 0;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  border: none;
+  margin-left: 12px;
+}
+
+.footer_top_button {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 260px;
+  padding: 20px 0;
+  border: none;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
 }
 
 /*end index end*/
