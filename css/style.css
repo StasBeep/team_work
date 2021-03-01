@@ -95,8 +95,8 @@ body {
 }
 
 .top_section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/top_img/bg_image_top2.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top2.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/top_img/bg_image_top.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -528,7 +528,6 @@ body {
 }
 
 /*end Блок №3*/
-/*end index end*/
 .bottom_section {
   height: 960px;
   width: 100%;
@@ -616,4 +615,46 @@ body {
   background: #979797;
   color: #FFFFFF;
 }
+
+.footer_top {
+  background: #080A0B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_top_img {
+  background-image: url(../img/footer_img/footer_scull_1.png);
+  width: 100%;
+  min-height: 656px;
+  background-repeat: no-repeat;
+}
+
+.footer_top_question {
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+.footer_top_subscribe {
+  width: 678px;
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+}
+
+/*end index end*/
 /*# sourceMappingURL=style.css.map */

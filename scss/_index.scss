@@ -453,5 +453,36 @@ body {
     }
 }
 
+// =================Footer=============
+
+.footer_top{
+    background: $super_black;
+    display: flex;
+    justify-content: space-between;
+
+    &_img{
+        background-image: url(../img/footer_img/footer_scull_1.png);
+        width: 100%;
+        min-height: 656px;
+        background-repeat: no-repeat;
+    }
+    
+    &_question{
+        display: block;
+        @include fonts(bebasneue, 700, 24px, 24px);
+        color: $white;
+        letter-spacing: 2px;
+    }
+
+    &_subscribe{
+        width: 678px;
+        display: block;
+        @include fonts(bebasneue, 700, 80px, 80px);
+        color: $white;
+        letter-spacing: 3px;
+    }
+
+}
+
 /*end index end*/
 
