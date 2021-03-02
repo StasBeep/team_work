@@ -1,6 +1,4 @@
-body {
-    margin: 0;
-}
+/* index */
 
 .container {
     width: 1200px;
@@ -8,110 +6,7 @@ body {
     box-sizing: border-box;
 }
 
-.top_section {
-    // box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    // width: 100%;
-    // height: 1050px;
-    &_wrp {
-        position: relative;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-.sos_txt {
-    @include fonts(bebasneue, 400, 24px, 24px);
-    padding-top: 160px;
-    box-sizing: border-box;
-    display: block;
-    letter-spacing: 2px;
-    color: #FFFFFF;
-}
-
-.social_txt {
-    @include fonts(bebasneue, 700, 80px, 80px);
-    margin-top: 10px;
-    box-sizing: border-box;
-    display: block;
-    width: 411px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.line {
-    box-sizing: border-box;
-    width: 650px;
-    border-bottom: 3px solid white;
-}
-
-.about_game_txt {
-    font-family: opensans_normal;
-    box-sizing: border-box;
-    margin-top: 60px;
-    width: 365px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: justify;
-    color: #FFFFFF;
-    padding-bottom: 358px;
-}
-
-.top_section_img {}
-
-.top_section_img_1 {
-    box-sizing: border-box;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 100;
-    top: 120px;
-    right: 100px;
-}
-
-
-.top_section_img_2 {
-    box-sizing: border-box;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 80;
-    top: 130px;
-    right: 75px;
-}
-
-
-.top_section_img_3 {
-    box-sizing: border-box;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 30;
-    top: 140px;
-    right: 55px;
-}
-
-.arrow_btn {}
-
-.arrow {
-    position: absolute;
-    z-index: 30;
-    top: 440px;
-    right: 15px;
-    stroke: white;
-}
-
-.arrow:hover {
-    stroke: grey;
-}
-
-.arrow:active {
-    stroke: white;
-}
-
-/* index */
+/* Первая часть*/
 .header {
     &-background {
         background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
@@ -122,6 +17,7 @@ body {
 
     &-menu {
         display: flex;
+        padding-left: 230px;
 
         &-logo {
             display: block;
@@ -140,7 +36,7 @@ body {
             box-sizing: border-box;
 
             &-li {
-                @include fonts(opensans, 700, 12px, 16px);
+                @include fonts(opensans_normal, 700, 12px, 16px);
                 text-transform: uppercase;
                 color: $white;
                 margin-right: 40px;
@@ -166,7 +62,7 @@ body {
             }
 
             &-txt {
-                @include fonts(opensans, 700, 12px, 16px);
+                @include fonts(opensans_normal, 700, 12px, 16px);
                 text-transform: uppercase;
                 color: $white;
 
@@ -271,13 +167,13 @@ body {
 
             &-txt {
                 display: block;
-                @include fonts(opensans, 700, 16px, 22px);
+                @include fonts(opensans_normal, 700, 16px, 22px);
                 margin-right: 11px;
             }
 
             &-price {
                 display: block;
-                @include fonts(opensans, 700, 16px, 22px);
+                @include fonts(opensans_normal, 700, 16px, 22px);
 
                 &::before {
                     content: "";
@@ -294,7 +190,7 @@ body {
             text-decoration: none;
 
             &-txt {
-                @include fonts(opensans, 700, 12px, 22px);
+                @include fonts(opensans_normal, 700, 12px, 22px);
                 text-transform: uppercase;
                 color: $white;
                 display: block;
@@ -321,6 +217,110 @@ body {
 #check-menu:checked~.header-menu-end-language-ol {
     display: block;
 }
+
+/*end Первая часть =========================================================*/
+
+/* Вторая часть*/
+.top_section {
+    // box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // width: 100%;
+    // height: 1050px;
+    &_wrp {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.sos_txt {
+    @include fonts(bebasneue, 400, 24px, 24px);
+    padding-top: 160px;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.social_txt {
+    @include fonts(bebasneue, 700, 80px, 80px);
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 411px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line {
+    box-sizing: border-box;
+    width: 650px;
+    border-bottom: 3px solid white;
+}
+
+.about_game_txt {
+    font-family: opensans_normal;
+    box-sizing: border-box;
+    margin-top: 60px;
+    width: 365px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    padding-bottom: 358px;
+}
+
+.top_section_img_1 {
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+    right: 100px;
+}
+
+
+.top_section_img_2 {
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 80;
+    top: 130px;
+    right: 75px;
+}
+
+
+.top_section_img_3 {
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    top: 140px;
+    right: 55px;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 30;
+    top: 440px;
+    right: 15px;
+    stroke: white;
+}
+
+.arrow:hover {
+    stroke: grey;
+}
+
+.arrow:active {
+    stroke: white;
+}
+
+/*end Вторая =====================================*/
 
 /*Блок №3*/
 .survive {
@@ -360,7 +360,7 @@ body {
             }
 
             &-paragraph {
-                @include fonts(opensans_, 400, 18px, 22px);
+                @include fonts(opensans, 400, 18px, 22px);
                 margin-top: 5px;
                 margin-bottom: 28px;
             }
@@ -378,7 +378,7 @@ body {
 
 /*end Блок №3*/
 
-
+/*Четвёртая секция*/
 // =================newsletter=============
 
 .bottom_section{
@@ -448,6 +448,7 @@ body {
         
     }
 }
+/*end Четвёртая секция =================================*/
 
 /* Пятая секция */
 .think {
@@ -489,7 +490,7 @@ body {
         }
 
         &-button {
-            @include fonts(opensans, 700, 18px, 22px);
+            @include fonts(opensans_normal, 700, 18px, 22px);
             color: $black;
             padding: 18px 35px;
             background: linear-gradient(194.68deg, $yellow-dust 11.27%, $light-yellow 90.4%);
@@ -619,7 +620,6 @@ body {
         }
     }
 }
-
 /*end Пятая секция end*/
 
 /*end index end*/

@@ -83,10 +83,7 @@ button:focus {
 /* bebasneue bold */
 /* mixin */
 /* шрифты через миксин*/
-body {
-  margin: 0;
-}
-
+/* index */
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -94,122 +91,7 @@ body {
           box-sizing: border-box;
 }
 
-.top_section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/top_img/bg_image_top2.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.top_section_wrp {
-  position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.sos_txt {
-  font-family: bebasneue;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 24px;
-  padding-top: 160px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: block;
-  letter-spacing: 2px;
-  color: #FFFFFF;
-}
-
-.social_txt {
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 80px;
-  line-height: 80px;
-  margin-top: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: block;
-  width: 411px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.line {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 650px;
-  border-bottom: 3px solid white;
-}
-
-.about_game_txt {
-  font-family: opensans_normal;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 60px;
-  width: 365px;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: justify;
-  color: #FFFFFF;
-  padding-bottom: 358px;
-}
-
-.top_section_img_1 {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 100;
-  top: 120px;
-  right: 100px;
-}
-
-.top_section_img_2 {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 80;
-  top: 130px;
-  right: 75px;
-}
-
-.top_section_img_3 {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 30;
-  top: 140px;
-  right: 55px;
-}
-
-.arrow {
-  position: absolute;
-  z-index: 30;
-  top: 440px;
-  right: 15px;
-  stroke: white;
-}
-
-.arrow:hover {
-  stroke: grey;
-}
-
-.arrow:active {
-  stroke: white;
-}
-
-/* index */
+/* Первая часть*/
 .header-background {
   background: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
   background-image: url(../img/bg-game.png);
@@ -221,6 +103,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 230px;
 }
 
 .header-menu-logo {
@@ -244,7 +127,7 @@ body {
 }
 
 .header-menu-list-li {
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -276,7 +159,7 @@ body {
 }
 
 .header-menu-end-txt {
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -397,7 +280,7 @@ body {
 
 .header-title-button-txt {
   display: block;
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -407,7 +290,7 @@ body {
 
 .header-title-button-price {
   display: block;
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -429,7 +312,7 @@ body {
 }
 
 .header-title-link-txt {
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
@@ -458,6 +341,284 @@ body {
   display: block;
 }
 
+/*end Первая часть =========================================================*/
+/* Вторая часть*/
+.top_section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../img/top_img/bg_image_top.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top_section_wrp {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sos_txt {
+  font-family: bebasneue;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  padding-top: 160px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.social_txt {
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 411px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.line {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 650px;
+  border-bottom: 3px solid white;
+}
+
+.about_game_txt {
+  font-family: opensans_normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 60px;
+  width: 365px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  padding-bottom: 358px;
+}
+
+.top_section_img_1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 100;
+  top: 120px;
+  right: 100px;
+}
+
+.top_section_img_2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 80;
+  top: 130px;
+  right: 75px;
+}
+
+.top_section_img_3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 30;
+  top: 140px;
+  right: 55px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 30;
+  top: 440px;
+  right: 15px;
+  stroke: white;
+}
+
+.arrow:hover {
+  stroke: grey;
+}
+
+.arrow:active {
+  stroke: white;
+}
+
+/*end Вторая =====================================*/
+/*Блок №3*/
+.survive-background {
+  background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(../img/back-man-bl-3.png);
+  background-size: cover;
+}
+
+.survive-padd {
+  padding: 169px 0 258px 679px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.survive-question {
+  display: block;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.survive-question:nth-child(2) {
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 71px;
+}
+
+.survive-list {
+  max-width: 320px;
+}
+
+.survive-list-li {
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: #FFFFFF;
+  list-style-type: circle;
+  list-style-position: 2px;
+}
+
+.survive-list-li-txt {
+  color: #FFB548;
+}
+
+.survive-list-li-paragraph {
+  font-family: opensans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+.survive-list-li:first-child {
+  list-style-type: disc;
+}
+
+.survive-list-li:nth-child(2) {
+  margin-bottom: 37px;
+}
+
+/*end Блок №3*/
+/*Четвёртая секция*/
+.bottom_section {
+  height: 960px;
+  width: 100%;
+  background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../img/top_img/bg_image_4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom_section_title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.bottom_section_title_first {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 145px;
+  display: block;
+  color: #FFFFFF;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.bottom_section_title_second {
+  padding-bottom: 134px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  color: #FFFFFF;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+}
+
+.bottom_section_table {
+  width: 50%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: auto;
+  color: white;
+}
+
+.bottom_section_table_bold {
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFB548;
+}
+
+.bottom_section_table_normal {
+  display: block;
+  margin: 7px 0 31px 0;
+  font-family: opensans_normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.bottom_section_table,
+.bottom_section_table td,
+.bottom_section_table th {
+  border: 0.5px solid rgba(151, 151, 151, 0.1);
+}
+
+.bottom_section_table td,
+.bottom_section_table th {
+  padding: 14px;
+  width: 30px;
+  height: 35px;
+}
+
+.bottom_section_table th {
+  background: #979797;
+  color: #FFFFFF;
+}
+
+/*end Четвёртая секция =================================*/
 /* Пятая секция */
 .think-background {
   background-image: radial-gradient(0.2% 44.27% at 28% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(../img/background_5.png);
@@ -484,19 +645,6 @@ body {
 }
 
 .think-left-side-question {
-/*Блок №3*/
-.survive-background {
-  background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(../img/back-man-bl-3.png);
-  background-size: cover;
-}
-
-.survive-padd {
-  padding: 169px 0 258px 679px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.survive-question {
   display: block;
   font-family: bebasneue;
   font-weight: 700;
@@ -524,7 +672,7 @@ body {
 }
 
 .think-left-side-button {
-  font-family: opensans;
+  font-family: opensans_normal;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -625,39 +773,6 @@ body {
   display: block;
   margin-left: 106px;
   font-family: opensans;
-  margin-bottom: 9px;
-}
-
-.survive-question:nth-child(2) {
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 80px;
-  line-height: 80px;
-  margin-bottom: 71px;
-}
-
-.survive-list {
-  max-width: 320px;
-}
-
-.survive-list-li {
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-  line-height: 36px;
-  color: #FFFFFF;
-  list-style-type: circle;
-  list-style-position: 2px;
-}
-
-.survive-list-li-txt {
-  color: #FFB548;
-}
-
-.survive-list-li-paragraph {
-  font-family: opensans_;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -706,104 +821,5 @@ body {
 }
 
 /*end Пятая секция end*/
-  margin-top: 5px;
-  margin-bottom: 28px;
-}
-
-.survive-list-li:first-child {
-  list-style-type: disc;
-}
-
-.survive-list-li:nth-child(2) {
-  margin-bottom: 37px;
-}
-
-/*end Блок №3*/
-.bottom_section {
-  height: 960px;
-  width: 100%;
-  background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../img/top_img/bg_image_4.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bottom_section_title {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-}
-
-.bottom_section_title_first {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 145px;
-  display: block;
-  color: #FFFFFF;
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 2px;
-}
-
-.bottom_section_title_second {
-  padding-bottom: 134px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: block;
-  color: #FFFFFF;
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 80px;
-  line-height: 80px;
-  letter-spacing: 3px;
-}
-
-.bottom_section_table {
-  width: 50%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  height: auto;
-  color: white;
-}
-
-.bottom_section_table_bold {
-  font-family: bebasneue;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 24px;
-  color: #FFB548;
-}
-
-.bottom_section_table_normal {
-  display: block;
-  margin: 7px 0 31px 0;
-  font-family: opensans_normal;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-}
-
-.bottom_section_table,
-.bottom_section_table td,
-.bottom_section_table th {
-  border: 0.5px solid rgba(151, 151, 151, 0.1);
-}
-
-.bottom_section_table td,
-.bottom_section_table th {
-  padding: 14px;
-  width: 30px;
-  height: 35px;
-}
-
-.bottom_section_table th {
-  background: #979797;
-  color: #FFFFFF;
-}
 /*end index end*/
+/*# sourceMappingURL=style.css.map */
