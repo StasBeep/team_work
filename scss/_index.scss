@@ -535,6 +535,24 @@ body {
 
 }
 
+.footer{
+    &_background{
+        background: $super_black;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.social_btn{
+    
+    &_links{
+
+        &_test{
+            display: block;
+        }
+    }
+}
+
 
 
 /*end index end*/

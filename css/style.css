@@ -709,5 +709,19 @@ body {
   outline-offset: 0;
 }
 
+.footer_background {
+  background: #080A0B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.social_btn_links_test {
+  display: block;
+}
+
 /*end index end*/
 /*# sourceMappingURL=style.css.map */
