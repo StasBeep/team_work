@@ -616,13 +616,13 @@ body {
   color: #FFFFFF;
 }
 
-.footer_top {
+.scull_top {
   background: #080A0B;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.footer_top_wrp {
+.scull_top_wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -631,14 +631,14 @@ body {
           justify-content: space-between;
 }
 
-.footer_top_img {
+.scull_top_img {
   background-image: url(../img/footer_img/footer_scull_1.png);
   width: 100%;
   min-height: 656px;
   background-repeat: no-repeat;
 }
 
-.footer_top_question {
+.scull_top_question {
   padding-top: 210px;
   display: block;
   font-family: bebasneue;
@@ -650,7 +650,7 @@ body {
   letter-spacing: 2px;
 }
 
-.footer_top_subscribe {
+.scull_top_subscribe {
   width: 678px;
   margin: 6px 0 45px 0;
   display: block;
@@ -663,7 +663,7 @@ body {
   letter-spacing: 3px;
 }
 
-.footer_top_content {
+.scull_top_content {
   width: 645px;
   display: block;
   font-family: opensans_normal;
@@ -675,7 +675,7 @@ body {
   margin-bottom: 40px;
 }
 
-.footer_top_email {
+.scull_top_email {
   width: 377px;
   padding-top: 26px;
   padding-bottom: 22px;
@@ -686,12 +686,12 @@ body {
   color: #FFB548;
 }
 
-.footer_top_email:active, .footer_top_email:hover, .footer_top_email:focus {
+.scull_top_email:active, .scull_top_email:hover, .scull_top_email:focus {
   outline: 0;
   outline-offset: 0;
 }
 
-.footer_top_button {
+.scull_top_button {
   font-family: opensans;
   font-weight: 700;
   font-style: normal;
@@ -704,7 +704,7 @@ body {
   border-radius: 4px;
 }
 
-.footer_top_button:active, .footer_top_button:hover, .footer_top_button:focus {
+.scull_top_button:active, .scull_top_button:hover, .scull_top_button:focus {
   outline: 0;
   outline-offset: 0;
 }
