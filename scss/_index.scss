@@ -340,6 +340,7 @@ body {
 
     &-left-side {
         max-width: 435px;
+        margin-right: 194px;
 
         &-question {
             display: block;
@@ -383,6 +384,17 @@ body {
             padding-top: 26px;
             padding-bottom: 21px;
             box-sizing: border-box;
+            margin-bottom: 30px;
+            margin-left: 145px;
+
+            &:nth-child(2){
+                margin-right: 145px;
+                margin-left: 0;
+            }
+
+            &:last-child{
+                margin-bottom: 0;
+            }
     
             &-img {
                 width: 65px;

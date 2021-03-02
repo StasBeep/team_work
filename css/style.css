@@ -472,6 +472,7 @@ body {
 
 .think-left-side {
   max-width: 435px;
+  margin-right: 194px;
 }
 
 .think-left-side-question {
@@ -528,6 +529,17 @@ body {
   padding-bottom: 21px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-left: 145px;
+}
+
+.think-right-side-card:nth-child(2) {
+  margin-right: 145px;
+  margin-left: 0;
+}
+
+.think-right-side-card:last-child {
+  margin-bottom: 0;
 }
 
 .think-right-side-card-img {
