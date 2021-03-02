@@ -53,7 +53,7 @@ button:focus {
 /* opensans */
 @font-face {
   font-family: opensans;
-  src: url(../fonts/opensans-bold.ttf);
+  src: url(../fonts/opensans-regular.ttf);
   font-weight: 700;
   font-style: normal;
 }
@@ -458,6 +458,32 @@ body {
   display: block;
 }
 
+/* Пятая секция */
+.think-background {
+  background-image: radial-gradient(0.2% 44.27% at 28% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(../img/background_5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.think-fl {
+  padding-top: 160px;
+  padding-bottom: 148px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.think-left-side {
+  max-width: 435px;
+  margin-right: 194px;
+}
+
+.think-left-side-question {
 /*Блок №3*/
 .survive-background {
   background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(../img/back-man-bl-3.png);
@@ -478,6 +504,127 @@ body {
   font-size: 24px;
   line-height: 24px;
   color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.think-left-side-question:nth-child(2) {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.think-left-side-question-p {
+  font-family: opensans_normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.think-left-side-button {
+  font-family: opensans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1A1917;
+  padding: 18px 35px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  border: none;
+}
+
+.think-left-side-button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.think-right-side-card {
+  width: 453px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  position: relative;
+  padding-top: 26px;
+  padding-bottom: 21px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-left: 145px;
+}
+
+.think-right-side-card:first-child .think-right-side-card-svg {
+  bottom: 129px;
+}
+
+.think-right-side-card:nth-child(2) {
+  margin-right: 145px;
+  margin-left: 0;
+}
+
+.think-right-side-card:nth-child(2) .think-right-side-card-img {
+  background-image: url(../img/card/woman-card-between.png);
+  background-position-y: -5px;
+  background-size: 70px;
+}
+
+.think-right-side-card:last-child {
+  margin-bottom: 0;
+}
+
+.think-right-side-card:last-child .think-right-side-card-img {
+  background-image: url(../img/card/men-card-last.png);
+  background-position-y: -5px;
+  background-size: 70px;
+}
+
+.think-right-side-card-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  left: 17px;
+}
+
+.think-right-side-card-img-orange {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #FFB548;
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 25px;
+}
+
+.think-right-side-card-img:first-child {
+  background-image: url(../img/card/men-card-up.png);
+  background-position-y: -5px;
+  background-size: 70px;
+}
+
+.think-right-side-card-title {
+  display: block;
+  margin-left: 109px;
+  font-family: bebasneue;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin-bottom: 2px;
+}
+
+.think-right-side-card-device {
+  display: block;
+  margin-left: 106px;
+  font-family: opensans;
   margin-bottom: 9px;
 }
 
@@ -515,6 +662,50 @@ body {
   font-style: normal;
   font-size: 18px;
   line-height: 22px;
+  opacity: 0.5;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.think-right-side-card-comment {
+  display: block;
+  margin-left: 17px;
+  font-family: opensans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.think-right-side-card-date {
+  display: block;
+  margin-left: 17px;
+  font-family: opensans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+
+.think-right-side-card-svg {
+  position: absolute;
+  bottom: 152px;
+  left: 407px;
+  opacity: 0.3;
+  fill: #FFFFFF;
+}
+
+.think-right-side-card-svg:hover {
+  fill: #5b5bd1;
+  opacity: 1;
+}
+
+/*end Пятая секция end*/
   margin-top: 5px;
   margin-bottom: 28px;
 }
@@ -528,7 +719,6 @@ body {
 }
 
 /*end Блок №3*/
-/*end index end*/
 .bottom_section {
   height: 960px;
   width: 100%;
@@ -616,4 +806,4 @@ body {
   background: #979797;
   color: #FFFFFF;
 }
-/*# sourceMappingURL=style.css.map */
+/*end index end*/

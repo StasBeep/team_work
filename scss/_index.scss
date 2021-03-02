@@ -10,11 +10,7 @@ body {
 
 .top_section {
     // box-sizing: border-box;
-
-  
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/top_img/bg_image_top.png);
-
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -453,5 +449,177 @@ body {
     }
 }
 
-/*end index end*/
+/* Пятая секция */
+.think {
+    &-background {
+        background-image: radial-gradient(0.2% 44.27% at 28.0% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, $blackish-blue 99.74%), url(../img/background_5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    &-fl {
+        padding-top: 160px;
+        padding-bottom: 148px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-left-side {
+        max-width: 435px;
+        margin-right: 194px;
+
+        &-question {
+            display: block;
+            @include fonts(bebasneue, 700, 24px, 24px);
+            color: $white;
+            margin-bottom: 8px;
+
+            &:nth-child(2) {
+                font-size: 80px;
+                line-height: 80px;
+            }
+
+            &-p {
+                @include fonts (opensans_normal, 400, 18px, 22px);
+                color: $white;
+                margin-top: 50px;
+                margin-bottom: 40px;
+            }
+        }
+
+        &-button {
+            @include fonts(opensans, 700, 18px, 22px);
+            color: $black;
+            padding: 18px 35px;
+            background: linear-gradient(194.68deg, $yellow-dust 11.27%, $light-yellow 90.4%);
+            border-radius: 4px;
+            border: none;
+    
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    &-right-side {
+        &-card {
+            width: 453px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            position: relative;
+            padding-top: 26px;
+            padding-bottom: 21px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+            margin-left: 145px;
+
+            &:first-child .think-right-side-card-svg{
+                bottom: 129px;
+            }
+
+            &:nth-child(2){
+                margin-right: 145px;
+                margin-left: 0;
+
+                & .think-right-side-card-img{
+                    background-image: url(../img/card/woman-card-between.png);
+                    background-position-y: -5px;
+                    background-size: 70px;
+                }
+            }
+
+            &:last-child{
+                margin-bottom: 0;
+
+                & .think-right-side-card-img{
+                    background-image: url(../img/card/men-card-last.png);
+                    background-position-y: -5px;
+                    background-size: 70px;
+                }
+            }
+    
+            &-img {
+                width: 65px;
+                height: 65px;
+                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                z-index: 2;
+                top: 14px;
+                left: 17px;
+    
+                &-orange {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                    background-color: $yellow-dust;
+                    position: absolute;
+                    z-index: 1;
+                    top: 15px;
+                    left: 25px;
+                }
+    
+                &:first-child {
+                    background-image: url(../img/card/men-card-up.png);
+                    background-position-y: -5px;
+                    background-size: 70px;
+                }
+                
+            }
+    
+            &-title {
+                display: block;
+                margin-left: 109px;
+                @include fonts(bebasneue, 700, 24px, 24px);
+                letter-spacing: 2px;
+                color: $yellow-dust;
+                margin-bottom: 2px;
+            }
+    
+            &-device {
+                display: block;
+                margin-left: 106px;
+                @include fonts (opensans, 400, 18px, 22px);
+                opacity: 0.5;
+                color: $white;
+                margin-bottom: 20px;
+            }
+    
+            &-comment {
+                display: block;
+                margin-left: 17px;
+                @include fonts (opensans, 400, 18px, 25px);
+                color: $white;
+                margin-bottom: 9px;
+            }
+    
+            &-date {
+                display: block;
+                margin-left: 17px;
+                @include fonts (opensans, 400, 14px, 20px);
+                color: $white;
+                opacity: 0.5;
+                mix-blend-mode: normal;
+            }
+    
+            &-svg {
+                position: absolute;
+                bottom: 152px;
+                left: 407px;
+                opacity: 0.3;
+                fill: $white;
+    
+                &:hover {
+                    fill: rgb(91, 91, 209);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+/*end Пятая секция end*/
+
+/*end index end*/
