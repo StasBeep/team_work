@@ -325,7 +325,7 @@ body {
 /* Пятая секция */
 .think {
     &-background {
-        background-image: radial-gradient(0.52% 44.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, $blackish-blue 99.74%), url(../img/background_5.png);
+        background-image: radial-gradient(0.2% 44.27% at 28.0% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, $blackish-blue 99.74%), url(../img/background_5.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -387,13 +387,29 @@ body {
             margin-bottom: 30px;
             margin-left: 145px;
 
+            &:first-child .think-right-side-card-svg{
+                bottom: 129px;
+            }
+
             &:nth-child(2){
                 margin-right: 145px;
                 margin-left: 0;
+
+                & .think-right-side-card-img{
+                    background-image: url(../img/card/woman-card-between.png);
+                    background-position-y: -5px;
+                    background-size: 70px;
+                }
             }
 
             &:last-child{
                 margin-bottom: 0;
+
+                & .think-right-side-card-img{
+                    background-image: url(../img/card/men-card-last.png);
+                    background-position-y: -5px;
+                    background-size: 70px;
+                }
             }
     
             &-img {
@@ -423,6 +439,7 @@ body {
                     background-position-y: -5px;
                     background-size: 70px;
                 }
+                
             }
     
             &-title {
@@ -462,7 +479,7 @@ body {
     
             &-svg {
                 position: absolute;
-                bottom: 129px;
+                bottom: 152px;
                 left: 407px;
                 opacity: 0.3;
                 fill: $white;
